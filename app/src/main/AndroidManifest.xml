@@ -47,6 +47,14 @@
             </intent-filter>
         </service>
 
+        <receiver
+            android:name=".SentinelPhoneStateReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
