@@ -8,6 +8,8 @@
 
 Sentinel Launcher is the native Android shell for the Sentinel security system. It provides the Android-native layer that complements the main React Native Sentinel app.
 
+This work was part of the broader Sentinel system, which **won a hackathon with 1700+ participants**, demonstrating both technical depth and product relevance.
+
 ## Why It Exists
 
 React Native gave us fast product development and polished UX, but Android-native integration was needed for:
